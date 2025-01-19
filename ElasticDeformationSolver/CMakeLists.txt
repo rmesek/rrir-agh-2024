@@ -1,14 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
+project(elastic_deformation)
 
-project(ElasticDeformationSolver C)
+find_package(GSL REQUIRED)
 
-set(CMAKE_C_STANDARD 11)
+add_executable(elastic_solver src/main.c)
+target_link_libraries(elastic_solver GSL::gsl GSL::gslcblas)
 
-# Dodanie głównego pliku źródłowego
-add_executable(elastic_solver src/main.c src/solver.c src/quadrature.c src/utils.c)
-
-# Włączenie ścieżki do plików nagłówkowych
-include_directories(${PROJECT_SOURCE_DIR}/include)
-
-# Dodanie flag kompilatora
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -O2")

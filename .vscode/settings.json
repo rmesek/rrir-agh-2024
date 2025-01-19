@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/fractal/projects/rrir-agh-2024/ElasticDeformationSolver",
+    "cmake.buildDirectory": "/home/fractal/projects/rrir-agh-2024/ElasticDeformationSolver/build",
+    "cmake.debugConfig": {
+        "args": ["100", "result.data"]
+    }
+}
