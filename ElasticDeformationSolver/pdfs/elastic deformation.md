@@ -7,8 +7,8 @@ $$ u(2) = 0 $$
 $$ \frac{du(0)}{dx} + u(0) = 10 $$
 
 $$ E(x) = \begin{cases}
-1 & \text{dla } x \in [0, 1) \\
-2 & \text{dla } x \in [1, 2]
+3 & \text{dla } x \in [0, 1) \\
+5 & \text{dla } x \in [1, 2]
 \end{cases} $$
 
 $$ \text{Gdzie } u \text{ to poszukiwana funkcja} \\
@@ -18,8 +18,8 @@ $$ \text{Gdzie } u \text{ to poszukiwana funkcja} \\
 
 $$ -\frac{d}{dx}\left(E(x)\frac{du(x)}{dx}\right) = 0 \quad \Omega = [0, 2] $$
 $$ E(x) = \begin{cases}
-1 & \text{dla } x \in [0, 1) \\
-2 & \text{dla } x \in [1, 2]
+3 & \text{dla } x \in [0, 1) \\
+5 & \text{dla } x \in [1, 2]
 \end{cases} $$
 
 $$ u'(0) + u(0) = 10 \quad u(2) = 0 $$
